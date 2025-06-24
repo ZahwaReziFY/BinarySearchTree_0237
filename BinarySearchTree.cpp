@@ -33,5 +33,7 @@ class BinaryTree
         cin >> x;
 
         Node *newNode = new Node(); //alocate memory for the new node
+
+        newNode->info = x; //assign value to the data field of new node
     }
 }
