@@ -28,6 +28,8 @@ class BinaryTree
 
     void insert()
     {
-        
+        int x;
+        cout << "Masukan nilai: ";
+        cin >> x;
     }
 }
