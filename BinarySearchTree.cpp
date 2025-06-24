@@ -49,5 +49,12 @@ class BinaryTree
 
             return; // exit
         }
+
+        if (x < parent->info) // if the value in the data field of the new node is less than that of parent
+        {
+            parent->leftchild = newNode; // make the right child of parent point to the new node
+
+            return; // exit
+        }
     }
 }
